@@ -22,7 +22,7 @@ int main(void) {
             cntShowBottle = rand() % 2 + 2;  // 조합할 약병 개수(2개 or 3개) 
         } while (cntShowBottle == prevCntShowBottle);
         prevCntShowBottle = cntShowBottle;  // 이번 회차의 약병 개수 저장
-        printf(" > %d번째 테스트", i);
+        printf(" > %d번째 테스트: ", i);
 
         int isIncluded = 0;  // 진짜 발모제인지 확인용
 
