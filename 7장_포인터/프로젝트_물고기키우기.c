@@ -2,9 +2,9 @@
 #include <time.h>
 #include <stdlib.h>
 
-int level;				// 레벨 
+int level;		   // 레벨 
 int arrayFish[6];  // 어항
-int* cursor;           // 어항에 배열에 접근할 포인터
+int* cursor;       // 어항에 배열에 접근할 포인터
 
 /* 필요한 데이터 초기화 */
 void initData() {
