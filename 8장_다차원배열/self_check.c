@@ -23,7 +23,7 @@ int main(void) {
 	};
 
 	printf("전체 상품 목록입니다.\n");
-	printf("======================================\n");
+    printf("======================================\n");
 	for (int i = 0; i < 3; i++) {
 		for (int j = 0; j < 4; j++) {
 			printf("%-12s", items[i][j]);
@@ -40,7 +40,7 @@ int main(void) {
 	}
 
 	input -= 1;
-	int x = input / 4;
+    int x = input / 4;
 	int y = input % 4;
 	printf("\n구매하신 상품은 %s입니다.\n", items[x][y]);
 	printf("이용해 주셔서 감사합니다.\n");
